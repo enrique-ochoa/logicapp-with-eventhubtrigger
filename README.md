@@ -16,7 +16,7 @@ From an access token caching perspective, three options were evaluated to be imp
 
 # Architecture
 
-![image](https://user-images.githubusercontent.com/91332911/134840789-beb3a93c-fe13-4493-9738-1e22f9078b41.png)
+![image](https://user-images.githubusercontent.com/91332911/165359116-1c1db1d7-cc62-4bb4-ab5b-c96ede70c0de.png)
 
 
 # Implementation Pre-requisites
