@@ -32,7 +32,7 @@ There are some dependencies that need to be in place before implementing the inf
 In order to implement this demo in an Azure environment, the following are the steps that need to be taken:
 1. Create an Event Hub instance in a new resource group
 2. Create Client Credentials for the Function App in AAD
-3. Open and initialize the Function App in Visual Studio Code. Add AAD Client Credentials info to local/settings.json. Test it locally
+3. Open and initialize the Function App (func-app-get-token-call-api-eventhub) in Visual Studio Code. Add AAD Client Credentials info to local/settings.json. Test it locally
 4. Manually create a Function App (Basic or Standard) in Azure based on an App Service Plan. Set AAD Client Credentials as App Settings
 5. Deploy VS Code Function App to Azure 
-6. Open and initialize the Logic App (Standard) in Visual Studio Code. Test it locally. Deploy to Azure
+6. Open and initialize the Standard Logic App (logicapp-vscode) in Visual Studio Code. Test it locally. Deploy to Azure
