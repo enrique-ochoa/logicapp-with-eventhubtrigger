@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\enriqueochoa\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\customError.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\customError.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Analysis\customError.js</TargetPath>
+      <DestinationSubDirectory>JS\Analysis\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Analysis\customError.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\helper.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\helper.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Analysis\helper.js</TargetPath>
+      <DestinationSubDirectory>JS\Analysis\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Analysis\helper.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\index.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\index.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Analysis\index.js</TargetPath>
+      <DestinationSubDirectory>JS\Analysis\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Analysis\index.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\userCodeDependencyHandler.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Analysis\userCodeDependencyHandler.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Analysis\userCodeDependencyHandler.js</TargetPath>
+      <DestinationSubDirectory>JS\Analysis\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Analysis\userCodeDependencyHandler.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\customError.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\customError.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Runtime\customError.js</TargetPath>
+      <DestinationSubDirectory>JS\Runtime\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Runtime\customError.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\functionInputHandler.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\functionInputHandler.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Runtime\functionInputHandler.js</TargetPath>
+      <DestinationSubDirectory>JS\Runtime\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Runtime\functionInputHandler.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\helper.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\helper.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Runtime\helper.js</TargetPath>
+      <DestinationSubDirectory>JS\Runtime\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Runtime\helper.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\index.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\Runtime\index.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\Runtime\index.js</TargetPath>
+      <DestinationSubDirectory>JS\Runtime\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\Runtime\index.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\.bin\esparse" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\.bin\esparse')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\.bin\esparse</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\.bin\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\.bin\esparse</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\.bin\esvalidate" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\.bin\esvalidate')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\.bin\esvalidate</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\.bin\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\.bin\esvalidate</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\LICENSE.BSD" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\LICENSE.BSD')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\esprima\LICENSE.BSD</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\esprima\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\esprima\LICENSE.BSD</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\dist\esprima.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\dist\esprima.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\esprima\dist\esprima.js</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\esprima\dist\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\esprima\dist\esprima.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\package.json" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\esprima\package.json')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\esprima\package.json</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\esprima\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\esprima\package.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\.babelrc" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\.babelrc')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\.babelrc</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\.babelrc</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\.jshintrc" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\.jshintrc')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\.jshintrc</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\.jshintrc</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\LICENSE.BSD" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\LICENSE.BSD')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\LICENSE.BSD</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\LICENSE.BSD</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\estraverse.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\estraverse.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\estraverse.js</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\estraverse.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\gulpfile.js" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\gulpfile.js')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\gulpfile.js</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\gulpfile.js</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\package.json" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\contentFiles\any\any\JS\node_modules\estraverse\package.json')">
+      <NuGetPackageId>Microsoft.Azure.Workflows.WebJobs.Extension</NuGetPackageId>
+      <NuGetPackageVersion>1.2.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JS\node_modules\estraverse\package.json</TargetPath>
+      <DestinationSubDirectory>JS\node_modules\estraverse\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JS\node_modules\estraverse\package.json</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.functions\3.0.13\build\Microsoft.NET.Sdk.Functions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.functions\3.0.13\build\Microsoft.NET.Sdk.Functions.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\build\Microsoft.Azure.Workflows.WebJobs.Extension.props" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.workflows.webjobs.extension\1.2.2\build\Microsoft.Azure.Workflows.WebJobs.Extension.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator Condition=" '$(PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator)' == '' ">C:\Users\enriqueochoa\.nuget\packages\microsoft.azure.webjobs.script.extensionsmetadatagenerator\1.2.2</PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator>
+    <PkgMicrosoft_Azure_Functions_Analyzers Condition=" '$(PkgMicrosoft_Azure_Functions_Analyzers)' == '' ">C:\Users\enriqueochoa\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0</PkgMicrosoft_Azure_Functions_Analyzers>
+    <PkgMicrosoft_NET_Sdk_Functions Condition=" '$(PkgMicrosoft_NET_Sdk_Functions)' == '' ">C:\Users\enriqueochoa\.nuget\packages\microsoft.net.sdk.functions\3.0.13</PkgMicrosoft_NET_Sdk_Functions>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\enriqueochoa\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Users\enriqueochoa\.nuget\packages\microsoft.aspnetcore.razor.design\2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+  </PropertyGroup>
+</Project>

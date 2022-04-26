@@ -1,0 +1,51 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Call_an_Azure_function": {
+                "type": "Function",
+                "inputs": {
+                    "method": "GET",
+                    "function": {
+                        "connectionName": "azureFunctionOperation"
+                    }
+                },
+                "runAfter": {}
+            },
+            "Call_an_Azure_function_2": {
+                "type": "Function",
+                "inputs": {
+                    "method": "POST",
+                    "body": "@body('Call_an_Azure_function')",
+                    "function": {
+                        "connectionName": "azureFunctionOperation-2"
+                    }
+                },
+                "runAfter": {
+                    "Call_an_Azure_function": [
+                        "Succeeded"
+                    ]
+                }
+            }
+        },
+        "triggers": {
+            "When_events_are_available_in_Event_hub": {
+                "type": "ServiceProvider",
+                "inputs": {
+                    "parameters": {
+                        "eventHubName": "eventhub-logicapps-eo"
+                    },
+                    "serviceProviderConfiguration": {
+                        "connectionName": "eventHub",
+                        "operationId": "receiveEvents",
+                        "serviceProviderId": "/serviceProviders/eventHub"
+                    }
+                },
+                "splitOn": "@triggerOutputs()?['body']"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {}
+    },
+    "kind": "Stateful"
+}

@@ -1,0 +1,40 @@
+{
+  "serviceProviderConnections": {
+    "eventHub": {
+      "parameterValues": {
+        "connectionString": "@appsetting('eventHub_connectionString')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/eventHub"
+      },
+      "displayName": "eventhub-conn"
+    }
+  },
+  "managedApiConnections": {},
+  "functionConnections": {
+    "azureFunctionOperation": {
+      "function": {
+        "id": "/subscriptions/e1a3f3d8-d79a-4aca-86e3-eb202d018222/resourceGroups/eventhub-logicapps-eorg/providers/Microsoft.Web/sites/func-app-get-token-call-api-eventhub/functions/HttpTrigger1"
+      },
+      "triggerUrl": "https://func-app-get-token-call-api-eventhub.azurewebsites.net/api/httptrigger1",
+      "authentication": {
+        "type": "QueryString",
+        "name": "Code",
+        "value": "@appsetting('azureFunctionOperation_functionAppKey')"
+      },
+      "displayName": "conn-1"
+    },
+    "azureFunctionOperation-2": {
+      "function": {
+        "id": "/subscriptions/e1a3f3d8-d79a-4aca-86e3-eb202d018222/resourceGroups/eventhub-logicapps-eorg/providers/Microsoft.Web/sites/func-app-get-token-call-api-eventhub/functions/HttpTrigger2"
+      },
+      "triggerUrl": "https://func-app-get-token-call-api-eventhub.azurewebsites.net/api/httptrigger2",
+      "authentication": {
+        "type": "QueryString",
+        "name": "Code",
+        "value": "@appsetting('azureFunctionOperation_12_functionAppKey')"
+      },
+      "displayName": "conn-2"
+    }
+  }
+}

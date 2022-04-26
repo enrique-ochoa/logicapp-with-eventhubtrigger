@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WORKFLOWS_TENANT_ID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "WORKFLOWS_SUBSCRIPTION_ID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "WORKFLOWS_RESOURCE_GROUP_NAME": "yyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+    "WORKFLOWS_LOCATION_NAME": "centralus",
+    "WORKFLOWS_MANAGEMENT_BASE_URI": "https://management.azure.com/",
+    "eventHub_connectionString": "Endpoint=sb://fffffffffffffffffffffffffffffffffffffffff",
+    "azureFunctionOperation_functionAppKey": "tststststststststtstststsststts",
+    "azureFunctionOperation_12_functionAppKey": "jsjsjsjsjsjsjsjsjsjsjsjsjss"
+  }
+}
