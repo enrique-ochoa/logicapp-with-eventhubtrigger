@@ -1,5 +1,5 @@
 # Overview
-The purpose of this demo is to show how the Azure platform can address the requirement of obtaining and caching access tokens for a serverless process to access an API
+The purpose of this repo is to show how the Azure platform can address the requirement of processing events immediately (based on a push model) after receipt. Processing in this context involves events ingestion, access token generation and API request creation/submission. All of these capabilities are executed automatically (without manual intervention) in a serverless platform  
 
 # Requirement
 External processes will be constantly publishing events to an Event Hub instance. When a new event arrives, a Logic App workflow will be triggered. This workflow instance will execute a couple of steps in a sequential way. The first step (an http function) will obtain an access token from memory or from an Identity Provider. With that access token, the second step in the workflow process (another http function) will be triggered. This second step will invoke an API using the previously collected token
